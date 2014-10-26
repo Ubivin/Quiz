@@ -12,6 +12,8 @@
 		0404F67219FC640300C80D7B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0404F67119FC640300C80D7B /* Images.xcassets */; };
 		0404F67519FC640300C80D7B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0404F67319FC640300C80D7B /* LaunchScreen.xib */; };
 		0404F68119FC640300C80D7B /* QuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0404F68019FC640300C80D7B /* QuizTests.m */; };
+		0404F69219FC6B5300C80D7B /* QuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0404F69019FC6B5300C80D7B /* QuizViewController.m */; };
+		0404F69319FC6B5300C80D7B /* QuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0404F69119FC6B5300C80D7B /* QuizViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,9 @@
 		0404F67A19FC640300C80D7B /* QuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0404F67F19FC640300C80D7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0404F68019FC640300C80D7B /* QuizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizTests.m; sourceTree = "<group>"; };
+		0404F68F19FC6B5300C80D7B /* QuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizViewController.h; sourceTree = SOURCE_ROOT; };
+		0404F69019FC6B5300C80D7B /* QuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizViewController.m; sourceTree = SOURCE_ROOT; };
+		0404F69119FC6B5300C80D7B /* QuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizViewController.xib; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +83,9 @@
 			children = (
 				0404F66E19FC640300C80D7B /* AppDelegate.h */,
 				0404F66F19FC640300C80D7B /* AppDelegate.m */,
+				0404F68F19FC6B5300C80D7B /* QuizViewController.h */,
+				0404F69019FC6B5300C80D7B /* QuizViewController.m */,
+				0404F69119FC6B5300C80D7B /* QuizViewController.xib */,
 				0404F67119FC640300C80D7B /* Images.xcassets */,
 				0404F67319FC640300C80D7B /* LaunchScreen.xib */,
 				0404F66A19FC640300C80D7B /* Supporting Files */,
@@ -193,6 +201,7 @@
 			files = (
 				0404F67519FC640300C80D7B /* LaunchScreen.xib in Resources */,
 				0404F67219FC640300C80D7B /* Images.xcassets in Resources */,
+				0404F69319FC6B5300C80D7B /* QuizViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +221,7 @@
 			files = (
 				0404F67019FC640300C80D7B /* AppDelegate.m in Sources */,
 				0404F66D19FC640300C80D7B /* main.m in Sources */,
+				0404F69219FC6B5300C80D7B /* QuizViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
