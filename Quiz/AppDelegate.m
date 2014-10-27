@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+//What does this do?
 @interface AppDelegate ()
 
 @end
