@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>ADB75B92-6E57-445D-BB9E-3C7D1D857C1B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Quiz</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D5F266892B412DEB0AE25FAD1C9BEB7E6644C117</key>
+		<string>github.com:Ubivin/Quiz.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Quiz.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D5F266892B412DEB0AE25FAD1C9BEB7E6644C117</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:Ubivin/Quiz.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D5F266892B412DEB0AE25FAD1C9BEB7E6644C117</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D5F266892B412DEB0AE25FAD1C9BEB7E6644C117</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Quiz</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -10,7 +10,6 @@
 		0404F66D19FC640300C80D7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0404F66C19FC640300C80D7B /* main.m */; };
 		0404F67019FC640300C80D7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0404F66F19FC640300C80D7B /* AppDelegate.m */; };
 		0404F67219FC640300C80D7B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0404F67119FC640300C80D7B /* Images.xcassets */; };
-		0404F67519FC640300C80D7B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0404F67319FC640300C80D7B /* LaunchScreen.xib */; };
 		0404F68119FC640300C80D7B /* QuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0404F68019FC640300C80D7B /* QuizTests.m */; };
 		0404F69219FC6B5300C80D7B /* QuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0404F69019FC6B5300C80D7B /* QuizViewController.m */; };
 		0404F69319FC6B5300C80D7B /* QuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0404F69119FC6B5300C80D7B /* QuizViewController.xib */; };
@@ -33,7 +32,6 @@
 		0404F66E19FC640300C80D7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0404F66F19FC640300C80D7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0404F67119FC640300C80D7B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		0404F67419FC640300C80D7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0404F67A19FC640300C80D7B /* QuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0404F67F19FC640300C80D7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0404F68019FC640300C80D7B /* QuizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizTests.m; sourceTree = "<group>"; };
@@ -87,7 +85,6 @@
 				0404F69019FC6B5300C80D7B /* QuizViewController.m */,
 				0404F69119FC6B5300C80D7B /* QuizViewController.xib */,
 				0404F67119FC640300C80D7B /* Images.xcassets */,
-				0404F67319FC640300C80D7B /* LaunchScreen.xib */,
 				0404F66A19FC640300C80D7B /* Supporting Files */,
 			);
 			path = Quiz;
@@ -199,7 +196,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0404F67519FC640300C80D7B /* LaunchScreen.xib in Resources */,
 				0404F67219FC640300C80D7B /* Images.xcassets in Resources */,
 				0404F69319FC6B5300C80D7B /* QuizViewController.xib in Resources */,
 			);
@@ -242,17 +238,6 @@
 			targetProxy = 0404F67B19FC640300C80D7B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		0404F67319FC640300C80D7B /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0404F67419FC640300C80D7B /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0404F68219FC640300C80D7B /* Debug */ = {
@@ -335,7 +320,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Quiz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -345,7 +332,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Quiz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -404,6 +393,7 @@
 				0404F68619FC640300C80D7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0404F68719FC640300C80D7B /* Build configuration list for PBXNativeTarget "QuizTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +402,7 @@
 				0404F68919FC640300C80D7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
